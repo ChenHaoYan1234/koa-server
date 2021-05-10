@@ -1,5 +1,6 @@
-const router = require("koa-router")();
+const router = require("koa-router");
+const rouet = new router();
 
 module.exports = (app) => {
-  router;
+  app.use(route.routes()).use(rouet.allowedMethods());
 };
