@@ -1,6 +1,9 @@
-const router = require("koa-router");
-const rouet = new router();
+import * as Router from "koa-router";
 
-module.exports = (app) => {
-  app.use(route.routes()).use(rouet.allowedMethods());
+const route = new Router({
+  prefix: "/api",
+});
+
+export default (app) => {
+  app.use(route.routes()).use(route.allowedMethods());
 };

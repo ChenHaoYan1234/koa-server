@@ -1,5 +1,7 @@
-const miRule = require("./miRule");
+import * as miRule from "./miRule";
+import * as bodyParser from "koa-bodyparser";
 
-module.exports = (app) => {
+export default (app) => {
   miRule(app);
+  app.use(bodyParser());
 };
