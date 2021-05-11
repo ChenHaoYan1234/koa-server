@@ -525,6 +525,11 @@ parseurl@^1.3.2:
   resolved "https://r.cnpmjs.org/parseurl/download/parseurl-1.3.3.tgz#9da19e7bee8d12dff0513ed5b76957793bc2e8d4"
   integrity sha1-naGee+6NEt/wUT7Vt2lXeTvC6NQ=
 
+password@^0.1.1:
+  version "0.1.1"
+  resolved "https://r.cnpmjs.org/password/download/password-0.1.1.tgz#c09d49f6a593a838bced6beb3a213b6774da5884"
+  integrity sha1-wJ1J9qWTqDi87WvrOiE7Z3TaWIQ=
+
 path-to-regexp@^6.1.0:
   version "6.2.0"
   resolved "https://r.cnpmjs.org/path-to-regexp/download/path-to-regexp-6.2.0.tgz#f7b3803336104c346889adece614669230645f38"
